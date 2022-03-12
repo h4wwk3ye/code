@@ -1,0 +1,51 @@
+{
+  "folders": [
+    {
+      "name": "At Coder",
+      "path": "At Coder"
+    },
+    {
+      "name": "Code Forces",
+      "path": "Code Forces"
+    },
+    {
+      "name": "Codechef",
+      "path": "Codechef"
+    },
+    {
+      "name": "Hackerearth",
+      "path": "Hackerearth"
+    },
+    {
+      "name": "Templates",
+      "path": "Templates"
+    },
+    {
+      "path": "Practice"
+    },
+    {
+      "path": "LeetCode"
+    },
+    {
+      "path": ".vscode"
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "deque": "cpp",
+      "string": "cpp",
+      "vector": "cpp",
+      "chrono": "cpp",
+      "iostream": "cpp",
+      "random": "cpp",
+      "array": "cpp",
+      "bitset": "cpp",
+      "string_view": "cpp",
+      "initializer_list": "cpp",
+      "regex": "cpp",
+      "utility": "cpp",
+      "valarray": "cpp"
+    },
+    "git.ignoreLimitWarning": true
+  }
+}

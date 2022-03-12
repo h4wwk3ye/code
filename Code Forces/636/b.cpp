@@ -1,0 +1,74 @@
+//#pragma GCC optimize("-O3")
+/*
+				C++
+				encoding: UTF-8
+				Last Modified: 21/Apr/20 08:16:36 PM
+*/
+
+#include <bits/stdc++.h>
+#ifdef H4wk3ye
+#	include <prettypr.hpp>
+#endif
+
+using namespace std;
+
+// clang-format off
+
+#define		int                    long long
+#define		ve                     vector
+#define		pb                     push_back
+#define		endl                   "\n"
+#define		ff                     first
+#define		ss                     second
+#define		pii                    pair<int, int>
+#define		len(v)                 (int)v.size()
+#define		all(v)                 v.begin(), v.end()
+#define		reset(a, b)            memset(a, b, sizeof(a));
+#define		fr(i, s, n)            for (int i = s ; i < n ; ++i)
+#define		dfr(i, s, n)           for (int i = s ; i > n ; --i)
+
+template < typename T > void pr (const T& t) {
+    cout << t << "\n";
+}
+
+template < typename T, typename U, typename... ARGS >
+void pr (const T& t, const U& u, const ARGS&... args) {
+    cout << t << " ";
+    pr (u, args...);
+}
+
+// clang-format on
+
+
+signed main () {
+	ios_base::sync_with_stdio (false), cin.tie (nullptr);
+	int tc;
+	cin >> tc;
+	while (tc--) {
+		int n;
+		cin >> n;
+		if ((n / 2) & 1) {
+			pr ("NO");
+			continue;
+		}
+		pr ("YES");
+		int p = 2;
+		fr (i, 0, n / 2) {
+			cout << p << " ";
+			if (i & 1)
+				p += 4;
+			else
+				p += 2;
+		}
+		p = 1;
+		fr (i, 0, n / 2) {
+			cout << p << " ";
+			if (i & 1)
+				p += 2;
+			else
+				p += 4;
+		}
+		cout << '\n';
+	}
+	return 0;
+}
