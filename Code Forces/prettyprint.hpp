@@ -14,7 +14,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
 namespace pretty_print {
 	namespace detail {
 		// SFINAE type trait to detect whether T::const_iterator exists.

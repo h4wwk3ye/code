@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/tahmhd/Downloads/code/Code Forces/1050/output/a'
+relocations:
+  - { offset: 0x16045, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x61959, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16268, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_a.cpp, symObjAddr: 0x168, symBinAddr: 0x1000007B8, symSize: 0x14 }
+  - { offset: 0x1627F, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x12C, symBinAddr: 0x10000077C, symSize: 0x3C }
+  - { offset: 0x1629D, size: 0x8, addend: 0x0, symName: __Z5printIiEvRKT_, symObjAddr: 0xF4, symBinAddr: 0x100000744, symSize: 0x38 }
+  - { offset: 0x162D4, size: 0x8, addend: 0x0, symName: __Z5printIxEvRKT_, symObjAddr: 0xBC, symBinAddr: 0x10000070C, symSize: 0x38 }
+  - { offset: 0x16311, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000650, symSize: 0xBC }
+...
